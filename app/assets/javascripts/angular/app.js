@@ -7,6 +7,11 @@ angular
        templateUrl: 'home.html',
        controller: 'HomeController as ctrl'
      })
+     .state('home.welcome', {
+       url: '/welcome',
+       templateUrl: 'home/welcome/index.html',
+       controller: 'WelcomeController as ctrl'
+     })
      .state('home.directions', {
        url: 'directions',
        templateUrl: 'home/directions/index.html',
