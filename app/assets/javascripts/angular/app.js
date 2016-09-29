@@ -8,7 +8,7 @@ angular
        controller: 'HomeController as ctrl'
      })
      .state('home.welcome', {
-       url: '/welcome',
+       url: 'welcome',
        templateUrl: 'home/welcome/index.html',
        controller: 'WelcomeController as ctrl'
      })
