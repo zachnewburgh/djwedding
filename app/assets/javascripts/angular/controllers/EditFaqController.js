@@ -4,7 +4,7 @@ function EditFaqController(Faq, $location, $stateParams) {
 
   ctrl.editFaq = function() {
     ctrl.faq.$update(function() {
-      $location.path('[model_name_pluralized]');
+      $location.path('faqs');
     });
   };
 };
