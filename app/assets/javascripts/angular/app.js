@@ -22,7 +22,7 @@ angular
        templateUrl: 'home/faqs/show.html',
        controller: 'ViewFaqController as ctrl'
      })
-    .state('home.faqs.edit', {
+    .state('home.edit', {
      url: 'faqs/edit/:id',
      templateUrl: 'home/faqs/edit.html',
      controller: 'EditFaqController as ctrl'
