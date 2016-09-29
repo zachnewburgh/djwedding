@@ -7,9 +7,9 @@ angular
        templateUrl: 'home.html',
        controller: 'HomeController as ctrl'
      })
-     .state('home.faqs', {
+     .state('home.faqs.index', {
        url: 'faqs',
-       templateUrl: 'home/faqs.html',
+       templateUrl: 'home/faqs/index.html',
        controller: 'FaqsController as ctrl'
      })
      .state('home.faqs.new', {
@@ -18,7 +18,7 @@ angular
        controller: 'NewFaqController as ctrl'
      })
 
-     .state('home.faqs.faq', {
+     .state('home.faqs.show', {
        url: 'faqs/:id',
        templateUrl: 'home/faqs/show.html',
        controller: 'ViewFaqController as ctrl'
