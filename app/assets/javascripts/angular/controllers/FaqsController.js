@@ -4,7 +4,7 @@ function FaqsController(Faq, $location, $state) {
   ctrl.faqs = Faq.query();
 
   ctrl.deleteFaq = function(faq) {
-    Faq.$delete(function() {
+    faq.$delete(function() {
       $state.reload();
     });
   };
