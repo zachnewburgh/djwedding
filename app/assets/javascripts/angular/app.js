@@ -17,8 +17,7 @@ angular
        templateUrl: 'home/faqs/new.html',
        controller: 'NewFaqController as ctrl'
      })
-
-     .state('home.faqs.show', {
+     .state('home.faq', {
        url: 'faqs/:id',
        templateUrl: 'home/faqs/show.html',
        controller: 'ViewFaqController as ctrl'
