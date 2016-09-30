@@ -22,6 +22,11 @@ angular
        templateUrl: 'home/faqs/index.html',
        controller: 'FaqsController as ctrl'
      })
+     .state('home.admin', {
+       url: 'admin/faqs',
+       templateUrl: 'home/faqs/index.html',
+       controller: 'FaqsController as ctrl'
+     })
      .state('home.new', {
        url: 'admin/faqs/new',
        templateUrl: 'home/faqs/new.html',
