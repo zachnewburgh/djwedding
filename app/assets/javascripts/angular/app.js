@@ -24,7 +24,7 @@ angular
      })
      .state('home.admin', {
        url: 'admin/faqs',
-       templateUrl: 'home/faqs/index.html',
+       templateUrl: 'home/faqs/admin.html',
        controller: 'FaqsController as ctrl'
      })
      .state('home.new', {
