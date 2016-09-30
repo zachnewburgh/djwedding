@@ -1,6 +1,6 @@
 angular
-  .module('app', ['ui.router', 'ngResource', 'templates'])
-  .config(function($stateProvider, $urlRouterProvider) {
+  .module('app', ['ui.router', 'ngResource', 'templates', 'Devise'])
+  .config(function($stateProvider, $urlRouterProvider, AuthProvider) {
    $stateProvider
      .state('home', {
        url: '/',
