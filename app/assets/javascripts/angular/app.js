@@ -23,17 +23,17 @@ angular
        controller: 'FaqsController as ctrl'
      })
      .state('home.new', {
-       url: 'faqs/new',
+       url: 'admin/faqs/new',
        templateUrl: 'home/faqs/new.html',
        controller: 'NewFaqController as ctrl'
      })
      .state('home.faq', {
-       url: 'faqs/:id',
+       url: 'admin/faqs/:id',
        templateUrl: 'home/faqs/show.html',
        controller: 'ViewFaqController as ctrl'
      })
     .state('home.edit', {
-     url: 'faqs/edit/:id',
+     url: 'admin/faqs/edit/:id',
      templateUrl: 'home/faqs/edit.html',
      controller: 'EditFaqController as ctrl'
      });
