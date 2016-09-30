@@ -1,0 +1,11 @@
+<h1>Add an FAQ</h1>
+
+<form validate ng-submit="ctrl.newFaq()">
+  <label for="question">Question</label>
+  <input type="text" ng-model="ctrl.faq.question" required>
+
+  <label for="answer">Answer</label>
+  <input type="text" ng-model="ctrl.faq.answer" required>
+
+  <input type="submit" value="Add FAQ">
+</form>
