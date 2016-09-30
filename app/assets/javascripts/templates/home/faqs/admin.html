@@ -1,0 +1,12 @@
+<h1>FAQs</h1>
+
+<a href="#" ui-sref="home.new">Add an FAQ</a>
+
+<div ng-repeat="faq in ctrl.faqs">
+  <br>{{faq.question}}
+  <br>{{faq.answer}}
+
+  <a href="#" ui-sref="home.faq({id: faq.id})">View FAQ</a>
+  <a href="#" ui-sref="home.edit({id: faq.id})">Edit FAQ</a>
+  <a href ng-click="ctrl.deleteFaq(faq)">Delete FAQ</a>
+</div> 
