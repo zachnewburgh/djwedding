@@ -1,14 +1,11 @@
-<div class="navbar">
-  <h1>Dena and Jonny's Wedding</h1>
-  <hr>
-  <br>
-
-  <a href="#" ui-sref="home.welcome" ui-sref-active="active">Home</a>
-  <a href="#" ui-sref="home.directions" ui-sref-active="active">Directions</a>
-  <a href="#" ui-sref="home.faqs" ui-sref-active="active">FAQs</a>
+<div class="navbar navbar-default">
+  <div class="container-fluid">
+    <a href="#" ui-sref="home.welcome" ui-sref-active="active" class="navbar-text">Home</a>
+    <a href="#" ui-sref="home.directions" ui-sref-active="active" class="navbar-text">Directions</a>
+    <a href="#" ui-sref="home.faqs" ui-sref-active="active" class="navbar-text">FAQs</a>
+  </div>
 </div>
 
-<br>
-<hr>
-
-<div ui-view></div>
+<div class="container-fluid">
+  <div ui-view></div>
+</div>
