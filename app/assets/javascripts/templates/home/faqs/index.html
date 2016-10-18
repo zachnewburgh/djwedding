@@ -1,6 +1,9 @@
-<h1>FAQs</h1>
+<img src="assets/background.jpg" class="bg">
 
-<div ng-repeat="faq in ctrl.faqs">
-  <br>{{faq.question}}
-  <br>{{faq.answer}}
-</div> 
+<div class="faqs" style="position: fixed; top: 20%; left: 57.2%;" ng-repeat="faq in ctrl.faqs">
+  <p>
+    <strong>{{faq.question}}</strong>
+    <br><br>
+    {{faq.answer}}
+  </p>
+</div>
