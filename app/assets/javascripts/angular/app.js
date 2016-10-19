@@ -42,5 +42,5 @@ angular
      templateUrl: 'home/faqs/edit.html',
      controller: 'EditFaqController as ctrl'
      });
-  $urlRouterProvider.otherwise('/');
+  $urlRouterProvider.otherwise('/welcome');
 });
